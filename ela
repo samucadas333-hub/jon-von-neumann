@@ -1,0 +1,52 @@
+export default function BeautyWebsite() { return ( <div className="min-h-screen bg-gradient-to-b from-pink-100 to-white text-gray-800 p-6"> <div className="max-w-4xl mx-auto"> <header className="text-center py-16"> <h1 className="text-5xl font-bold mb-4">Ela é Inesquecível</h1> <p className="text-lg text-gray-600"> Um pequeno site descrevendo toda a beleza e personalidade dela. </p> </header>
+
+<section className="grid md:grid-cols-2 gap-6 mb-10">
+      <div className="bg-white rounded-3xl shadow-lg p-6">
+        <h2 className="text-2xl font-semibold mb-3">O Sorriso</h2>
+        <p>
+          O sorriso dela consegue iluminar qualquer lugar. É aquele tipo de sorriso
+          que transmite calma, felicidade e faz qualquer momento parecer melhor.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-3xl shadow-lg p-6">
+        <h2 className="text-2xl font-semibold mb-3">O Jeito Dela</h2>
+        <p>
+          Mais do que aparência, o jeito dela chama atenção. A forma como fala,
+          ri e trata as pessoas faz dela alguém realmente especial.
+        </p>
+      </div>
+    </section>
+
+    <section className="bg-white rounded-3xl shadow-lg p-8 mb-10">
+      <h2 className="text-3xl font-bold mb-4 text-center">Por Que Ela é Tão Especial?</h2>
+      <p className="text-lg leading-8 text-center">
+        Porque a beleza dela vai além do que os olhos conseguem ver. Está nos detalhes,
+        nas atitudes e na presença que ela transmite. Ela consegue ser única sem nem tentar.
+      </p>
+    </section>
+
+    <section className="grid md:grid-cols-3 gap-6 mb-10">
+      <div className="bg-pink-50 rounded-2xl p-5 shadow-md">
+        <h3 className="font-bold text-xl mb-2">Olhar</h3>
+        <p>Um olhar marcante que passa confiança e delicadeza ao mesmo tempo.</p>
+      </div>
+
+      <div className="bg-pink-50 rounded-2xl p-5 shadow-md">
+        <h3 className="font-bold text-xl mb-2">Personalidade</h3>
+        <p>Ela consegue ser divertida, inteligente e carismática naturalmente.</p>
+      </div>
+
+      <div className="bg-pink-50 rounded-2xl p-5 shadow-md">
+        <h3 className="font-bold text-xl mb-2">Energia</h3>
+        <p>A presença dela muda o clima de qualquer lugar de um jeito positivo.</p>
+      </div>
+    </section>
+
+    <footer className="text-center py-8 text-gray-500">
+      Feito especialmente para alguém incrível.
+    </footer>
+  </div>
+</div>
+
+); }
